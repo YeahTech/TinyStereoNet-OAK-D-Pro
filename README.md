@@ -1,4 +1,5 @@
 
+
 # TinyStereoNet-OAK-D-Pro
 
 ## Collect oak-d-pro data
@@ -15,3 +16,5 @@ python run_tinystereonet_and_stereodepth_online_demo.py
 ```
 python run_tinystereonet_and_stereodepth_from_host_demo.py  --stereo_image_list stereo_images_list.txt
 ```
+
+Each line in `stereo_images_list.txt` should contain the left and right image paths separated by a space.
